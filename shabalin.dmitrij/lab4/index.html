@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Каталог игр</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Каталог игр</h1>
+
+  <form id="gameForm">
+    <input id="title" placeholder="Название игры" required>
+    <input id="year" type="number" placeholder="Год выпуска"
+           min="1" max="9999" required>
+    <button>Добавить игру</button>
+  </form>
+
+  <p id="status" role="status"></p>
+  <div id="games"></div>
+
+  <h2>Аналитика</h2>
+  <select id="analysis">
+    <option value="year">Группировать по году</option>
+    <option value="platforms">Уникальные платформы</option>
+    <option value="platform">Игры на платформе</option>
+    <option value="count">Группировать по числу платформ</option>
+    <option value="after">Игры после указанного года</option>
+  </select>
+
+  <input id="platformFilter" placeholder="Введите платформу" hidden>
+  <input id="yearFilter" type="number" placeholder="Введите год"
+         min="1" max="9999" hidden>
+  <pre id="result"></pre>
+
+  <script src="model.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

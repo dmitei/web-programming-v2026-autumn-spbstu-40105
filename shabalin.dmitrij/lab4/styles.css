@@ -1,0 +1,36 @@
+body {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 0 15px;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  color: #333;
+}
+
+input, select, button {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 5px 0;
+  font: inherit;
+}
+
+button { cursor: pointer; }
+button:disabled { cursor: wait; opacity: 0.6; }
+
+.card {
+  padding: 15px;
+  margin: 15px 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+pre {
+  padding: 15px;
+  background: white;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+#status { min-height: 20px; }
