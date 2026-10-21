@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f2f2f2;
+  color: #333;
+}
+input:not([type="radio"]) { display: block; width: 100%; box-sizing: border-box; }
+button { padding: 10px; cursor: pointer; }
