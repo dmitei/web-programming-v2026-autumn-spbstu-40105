@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог игр</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Каталог игр</h1>
+      <form data-testid="entity-form">
+        <label>Название <input type="text" name="title" required /></label>
+        <label
+          >Год выпуска <input type="number" name="releaseYear" min="1" required
+        /></label>
+        <button type="submit">Добавить игру</button>
+      </form>
+      <p id="status" role="status"></p>
+      <section data-testid="entity-list" aria-label="Список игр"></section>
+    </main>
+    <template id="game-card">
+      <article data-testid="entity-card">
+        <h2>Игра</h2>
+        <p class="platforms"></p>
+        <form class="platform-form">
+          <label
+            >Платформа <input type="text" name="platform" required
+          /></label>
+          <button type="submit" name="action" value="add">
+            Добавить платформу
+          </button>
+          <button type="submit" name="action" value="remove">
+            Удалить платформу
+          </button>
+        </form>
+        <button type="button" data-testid="delete-entity">Удалить игру</button>
+      </article>
+    </template>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

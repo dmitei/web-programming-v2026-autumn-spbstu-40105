@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background: #f3f6f8;
+  color: #182439;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  max-width: 52rem;
+  margin-inline: auto;
+  padding: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: end;
+}
+
+label {
+  display: grid;
+  gap: 0.25rem;
+  max-width: 100%;
+}
+
+input,
+button {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #65758b;
+  border-radius: 0.35rem;
+  font: inherit;
+}
+
+input {
+  min-width: 0;
+}
+
+button {
+  background: #174772;
+  color: #fff;
+  cursor: pointer;
+}
+
+article {
+  margin-block: 1rem;
+  padding: 1rem;
+  overflow-wrap: anywhere;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+article > button {
+  margin-top: 1rem;
+}
