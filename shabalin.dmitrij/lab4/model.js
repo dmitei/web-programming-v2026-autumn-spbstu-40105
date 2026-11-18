@@ -1,7 +1,7 @@
 export class Game {
   constructor(title, platforms, releaseYear) {
     this.title = title;
-    this.platforms = [...new Set(platforms)];
+    this.platforms =  [...new Set(platforms)];
     this.releaseYear = releaseYear;
   }
 
