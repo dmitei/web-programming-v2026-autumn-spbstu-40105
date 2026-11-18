@@ -1,5 +1,4 @@
 export function findLongestIncreasingSubsequence(arr) {
-  // tails[i] — минимальный последний элемент подпоследовательности длины i + 1.
   const tails = [];
   for (const value of arr) {
     let left = 0;
