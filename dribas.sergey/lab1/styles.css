@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+main {
+  text-align: center;
+}
+
+.flag {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 240px;
+  background-color: #bc002d;
+  border-radius: 50%;
+}

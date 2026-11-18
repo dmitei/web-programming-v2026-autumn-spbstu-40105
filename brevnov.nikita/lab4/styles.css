@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background: #f5f5f5;
+}
+
+.page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.event-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.event-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 4px;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.event-card {
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.event-card-title {
+  margin: 0 0 4px;
+}
+
+.event-card-meta {
+  margin: 0 0 8px;
+  color: #555;
+}
+
+.event-card-participants {
+  margin: 0 0 8px;
+  padding-left: 20px;
+}
+
+.event-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.participant-form {
+  display: flex;
+  gap: 8px;
+}

@@ -1,0 +1,11 @@
+.completed::marker {
+  content: '✅ ';
+}
+
+.canceled::marker {
+  content: '❌ ';
+}
+
+.in-progress::marker {
+  content: '⏳ ';
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Лабораторная работа 4 — Мероприятия</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Мероприятия</h1>
+
+      <form data-testid="entity-form" class="event-form">
+        <label>
+          ID
+          <input name="id" type="text" required />
+        </label>
+        <label>
+          Название
+          <input name="title" type="text" required />
+        </label>
+        <label>
+          Дата
+          <input name="date" type="date" required />
+        </label>
+        <button type="submit">Добавить мероприятие</button>
+      </form>
+
+      <div data-testid="entity-list" class="event-list"></div>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

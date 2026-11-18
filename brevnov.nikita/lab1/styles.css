@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.page {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.underline {
+  --underline-thickness: 2px;
+  --underline-offset: 3px;
+
+  background-image: linear-gradient(currentcolor, currentcolor);
+  background-repeat: no-repeat;
+  background-size: 100% var(--underline-thickness);
+  background-position: 0 calc(100% - var(--underline-offset));
+}
+
+.underline-thick {
+  --underline-thickness: 4px;
+  --underline-offset: 2px;
+}

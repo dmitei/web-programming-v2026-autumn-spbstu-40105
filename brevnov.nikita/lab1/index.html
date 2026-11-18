@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Задача 1 — Кастомное подчёркивание</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Кастомное подчёркивание текста</h1>
+
+      <p>Обычный текст без подчёркивания для сравнения.</p>
+
+      <p>
+        Этот текст содержит
+        <span class="underline">подчёркнутое слово</span>, но подчёркивание
+        сделано не через <code>text-decoration</code>, а через
+        <code>background-image</code> с линейным градиентом.
+      </p>
+
+      <p>
+        Можно подчеркнуть и
+        <span class="underline underline-thick">целую фразу целиком</span>,
+        меняя толщину линии через CSS-переменную.
+      </p>
+    </main>
+  </body>
+</html>

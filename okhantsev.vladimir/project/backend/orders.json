@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2024-09-10T14:30:00Z",
+    "id": 1,
+    "items": [
+      {
+        "goodId": 1,
+        "quantity": 2
+      },
+      {
+        "goodId": 3,
+        "quantity": 1
+      }
+    ],
+    "itemsCount": 3,
+    "totalPrice": 212970
+  },
+  {
+    "date": "2026-09-18T20:29:05.79210332Z",
+    "id": 2,
+    "items": [
+      {
+        "goodId": 6,
+        "quantity": 1
+      }
+    ],
+    "itemsCount": 1,
+    "totalPrice": 59990
+  },
+  {
+    "date": "2026-09-18T20:41:37.110815599Z",
+    "id": 3,
+    "items": [
+      {
+        "goodId": 63,
+        "quantity": 3
+      }
+    ],
+    "itemsCount": 3,
+    "totalPrice": 38970
+  },
+  {
+    "date": "2026-09-21T15:31:34.468859076Z",
+    "id": 4,
+    "items": [
+      {
+        "goodId": 29,
+        "quantity": 3
+      },
+      {
+        "goodId": 1,
+        "quantity": 5
+      },
+      {
+        "goodId": 45,
+        "quantity": 3
+      }
+    ],
+    "itemsCount": 11,
+    "totalPrice": 423717
+  }
+]

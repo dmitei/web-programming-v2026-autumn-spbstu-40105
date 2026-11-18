@@ -1,0 +1,18 @@
+name: Submission
+
+on:
+  pull_request_target:
+    branches: [master]
+    types: [opened, reopened, synchronize, edited]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  submission:
+    name: Automated submission checks
+    uses: web-programming-contest/web-programming-ci-utils/.github/workflows/submission.yml@3ffd1c5e7af9c9e818e0102e98d7c62e5d488f8f
+    with:
+      utils_repository: web-programming-contest/web-programming-ci-utils
+      utils_ref: "3ffd1c5e7af9c9e818e0102e98d7c62e5d488f8f"

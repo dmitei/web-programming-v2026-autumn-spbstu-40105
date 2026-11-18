@@ -1,0 +1,44 @@
+/* Контейнер для горизонтального расположения карточек с отступом 20px */
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* Общие стили для карточки товара */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box; /* Гарантирует, что padding не увеличивает общий размер */
+  width: fit-content; /* Ширина подстраивается под содержимое */
+}
+
+/* Изображение размером 200px на 150px с внутренним отступом 10px */
+.card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover; /* Масштабирует изображение, сохраняя пропорции и обрезая лишнее */
+  padding: 10px;
+  box-sizing: border-box; /* Учитывает padding в общем размере */
+  display: block; /* Убирает нижний отступ, присущий inline-элементам */
+}
+
+/* Заголовок (Arial, 18px, жирный) с внутренним отступом 10px */
+.card h3 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0; /* Убираем стандартный отступ у заголовка */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Описание (Arial, 14px) с внутренним отступом 10px */
+.card p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0; /* Убираем стандартный отступ у параграфа */
+  padding: 10px;
+  box-sizing: border-box;
+  color: #555; /* Цвет текста для описания */
+}
